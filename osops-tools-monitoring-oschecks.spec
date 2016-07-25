@@ -15,7 +15,16 @@ BuildRequires:  python-devel
 BuildRequires:  python-pbr
 BuildRequires:  git
 BuildRequires:  python-setuptools
+Requires: python-psutil
+Requires: python-ceilometerclient
+Requires: python-cinderclient
+Requires; python-glanceclient
+Requires: python-keystoneclient
+Requires: python-neutronclient
+Requires: python-novaclient
 Requires: python-openstackclient
+Requires: python-six
+
 
 BuildArch: noarch
 
