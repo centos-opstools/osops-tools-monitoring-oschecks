@@ -1,3 +1,5 @@
-# UUID                                  	Group Name
-#
-e6d348350eb41d689238ca3b56b5b1cde6f60b77	centos-opstools/osops-tools-monitoring-oschecks-ptl
+# UUID          Group Name
+False 	Non-Interactive Users
+9c3c3ec4148697399b4c7ec7cbcc793fffc2cbd4       	centos-opstools/osops-tools-monitoring-oschecks-core
+e6d348350eb41d689238ca3b56b5b1cde6f60b77        	centos-opstools/osops-tools-monitoring-oschecks-ptl
+global:Registered-Users		Registered Users
