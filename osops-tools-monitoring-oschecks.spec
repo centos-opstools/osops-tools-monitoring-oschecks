@@ -1,9 +1,9 @@
-%global commit          3986ef29c4368d17a52409b08c1b5c88a0c76a07
+%global commit          1a3ca01844799d2126e17783fa8bee37ad1b86cb
 %global shortcommit     %(c=%{commit}; echo ${c:0:7})
 
 Name:           osops-tools-monitoring-oschecks
 Version:        0.1
-Release:        0.6.%{shortcommit}git%{?dist}
+Release:        0.7.%{shortcommit}git%{?dist}
 Summary:        Scripts used to monitor an Openstack Installation
 
 License:        ASL 2.0
@@ -51,6 +51,9 @@ find %{buildroot}%{python2_sitelib}/oschecks/*.py -not -name '__init__.py' -exec
 %{python2_sitelib}/monitoring_for_openstack*
 
 %changelog
+* Wed Mar 23 2016 Martin Mágr <mmagr@redhat.com> 0.1-0.7.1a3ca01git
+- Update to commit 1a3ca01 to pull Pike compatibility fixes in
+
 * Mon Aug 08 2016 Matthias Runge <mrunge@redhat.com> - 0.1-0.6.3986efgit
 - pull in fixes for keystone, novaclient
 
